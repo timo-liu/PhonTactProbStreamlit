@@ -1,6 +1,10 @@
 from PhonTactProb import PhonTactProb
 import streamlit as st
 import pandas as pd
+import nltk
+
+nltk.download('brown')
+nltk.download('stopwords')
 
 st.title("English Phonotactic Probability Calculator")
 user_input = st.text_input("Enter your input ipa:")
