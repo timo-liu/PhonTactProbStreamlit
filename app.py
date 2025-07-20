@@ -24,8 +24,8 @@ with st.expander("ℹ️ Instructions / Access Guide"):
     **Notes:**
     - Each phoneme must be in IPA format.
     - The app expects space-separated IPA for multi-word input (e.g., `kæt dɔg`).
-    
-    Many thanks to ChatGPT for liberating me from front-end work (first they came for HTML, then they came for React, then they came for bankend... yadda yadda)
+
+    Methodology derives from Vitevitch & Luce (2004)
     """)
 
 # initialize instance if PhonTactProb
